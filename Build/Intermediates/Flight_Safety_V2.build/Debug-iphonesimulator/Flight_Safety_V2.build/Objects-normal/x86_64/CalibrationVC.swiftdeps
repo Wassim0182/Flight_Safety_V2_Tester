@@ -1,0 +1,394 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CalibrationVC"
+provides-nominal:
+- "16Flight_Safety_V213CalibrationVCC"
+provides-member:
+- ["16Flight_Safety_V213CalibrationVCC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- !private "-="
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- !private "CInt"
+- !private "CShort"
+- "CalibrationVC"
+- !private "Float"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "Optional"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "parser"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["s7CVarArgP", "Optional"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "airspeedKnots"]
+- !private ["s7CVarArgP", "battPct"]
+- !private ["s7CVarArgP", "firmware_version"]
+- !private ["s7CVarArgP", "geo_Altitude"]
+- !private ["s7CVarArgP", "gps_Lat"]
+- !private ["s7CVarArgP", "gps_Long"]
+- !private ["s7CVarArgP", "gps_VSI"]
+- !private ["s7CVarArgP", "ground_speed"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "msgReceiver"]
+- !private ["s7CVarArgP", "parser"]
+- !private ["s7CVarArgP", "pitch"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "roll"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "vsiFtPerMin"]
+- !private ["s7CVarArgP", "yaw"]
+- !private ["16Flight_Safety_V213CalibrationVCC", "CInt"]
+- !private ["16Flight_Safety_V213CalibrationVCC", "CShort"]
+- !private ["16Flight_Safety_V213CalibrationVCC", "Float"]
+- !private ["16Flight_Safety_V213CalibrationVCC", "Optional"]
+- ["16Flight_Safety_V213CalibrationVCC", "deinit"]
+- ["16Flight_Safety_V213CalibrationVCC", "init"]
+- !private ["16Flight_Safety_V213CalibrationVCC", "parser"]
+- !private ["16Flight_Safety_V213CalibrationVCC", "print"]
+- ["16Flight_Safety_V213CalibrationVCC", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "Optional"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "airspeedKnots"]
+- !private ["s28CustomDebugStringConvertibleP", "battPct"]
+- !private ["s28CustomDebugStringConvertibleP", "firmware_version"]
+- !private ["s28CustomDebugStringConvertibleP", "geo_Altitude"]
+- !private ["s28CustomDebugStringConvertibleP", "gps_Lat"]
+- !private ["s28CustomDebugStringConvertibleP", "gps_Long"]
+- !private ["s28CustomDebugStringConvertibleP", "gps_VSI"]
+- !private ["s28CustomDebugStringConvertibleP", "ground_speed"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "msgReceiver"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "parser"]
+- !private ["s28CustomDebugStringConvertibleP", "pitch"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "roll"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "vsiFtPerMin"]
+- !private ["s28CustomDebugStringConvertibleP", "yaw"]
+- !private ["s17CustomReflectableP", "none"]
+- !private ["s23CustomStringConvertibleP", "Optional"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "airspeedKnots"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "battPct"]
+- !private ["s23CustomStringConvertibleP", "firmware_version"]
+- !private ["s23CustomStringConvertibleP", "geo_Altitude"]
+- !private ["s23CustomStringConvertibleP", "gps_Lat"]
+- !private ["s23CustomStringConvertibleP", "gps_Long"]
+- !private ["s23CustomStringConvertibleP", "gps_VSI"]
+- !private ["s23CustomStringConvertibleP", "ground_speed"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "msgReceiver"]
+- !private ["s23CustomStringConvertibleP", "parser"]
+- !private ["s23CustomStringConvertibleP", "pitch"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "roll"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "vsiFtPerMin"]
+- !private ["s23CustomStringConvertibleP", "yaw"]
+- !private ["Se", "none"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "none"]
+- !private ["SQ", "Optional"]
+- ["SQ", ""]
+- !private ["SQ", "airspeedKnots"]
+- !private ["SQ", "battPct"]
+- !private ["SQ", "firmware_version"]
+- !private ["SQ", "geo_Altitude"]
+- !private ["SQ", "gps_Lat"]
+- !private ["SQ", "gps_Long"]
+- !private ["SQ", "gps_VSI"]
+- !private ["SQ", "ground_speed"]
+- !private ["SQ", "init"]
+- !private ["SQ", "msgReceiver"]
+- !private ["SQ", "none"]
+- !private ["SQ", "parser"]
+- !private ["SQ", "pitch"]
+- !private ["SQ", "print"]
+- !private ["SQ", "roll"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "vsiFtPerMin"]
+- !private ["SQ", "yaw"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["SH", "Optional"]
+- ["SH", ""]
+- !private ["SH", "airspeedKnots"]
+- !private ["SH", "battPct"]
+- !private ["SH", "firmware_version"]
+- !private ["SH", "geo_Altitude"]
+- !private ["SH", "gps_Lat"]
+- !private ["SH", "gps_Long"]
+- !private ["SH", "gps_VSI"]
+- !private ["SH", "ground_speed"]
+- !private ["SH", "init"]
+- !private ["SH", "msgReceiver"]
+- !private ["SH", "none"]
+- !private ["SH", "parser"]
+- !private ["SH", "pitch"]
+- !private ["SH", "print"]
+- !private ["SH", "roll"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "vsiFtPerMin"]
+- !private ["SH", "yaw"]
+- !private ["So8NSCodingP", "Optional"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "parser"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Optional"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "parser"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "CInt"]
+- !private ["So8NSObjectC", "CShort"]
+- !private ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "Optional"]
+- !private ["So8NSObjectC", "airspeedKnots"]
+- !private ["So8NSObjectC", "battPct"]
+- !private ["So8NSObjectC", "firmware_version"]
+- !private ["So8NSObjectC", "geo_Altitude"]
+- !private ["So8NSObjectC", "gps_Lat"]
+- !private ["So8NSObjectC", "gps_Long"]
+- !private ["So8NSObjectC", "gps_VSI"]
+- !private ["So8NSObjectC", "ground_speed"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "msgReceiver"]
+- !private ["So8NSObjectC", "parser"]
+- !private ["So8NSObjectC", "pitch"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "roll"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "vsiFtPerMin"]
+- !private ["So8NSObjectC", "yaw"]
+- !private ["So8NSObjectP", "Optional"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "airspeedKnots"]
+- !private ["So8NSObjectP", "battPct"]
+- !private ["So8NSObjectP", "firmware_version"]
+- !private ["So8NSObjectP", "geo_Altitude"]
+- !private ["So8NSObjectP", "gps_Lat"]
+- !private ["So8NSObjectP", "gps_Long"]
+- !private ["So8NSObjectP", "gps_VSI"]
+- !private ["So8NSObjectP", "ground_speed"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "msgReceiver"]
+- !private ["So8NSObjectP", "parser"]
+- !private ["So8NSObjectP", "pitch"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "roll"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "vsiFtPerMin"]
+- !private ["So8NSObjectP", "yaw"]
+- !private ["Sq", "none"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So21UIAppearanceContainerP", "Optional"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "parser"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Optional"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "parser"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "Optional"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "parser"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "Optional"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "parser"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "CInt"]
+- !private ["So11UIResponderC", "CShort"]
+- !private ["So11UIResponderC", "Float"]
+- !private ["So11UIResponderC", "Optional"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "parser"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Optional"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "parser"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "Optional"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "parser"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Optional"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "parser"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Optional"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "parser"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So16UIViewControllerC", "CInt"]
+- !private ["So16UIViewControllerC", "CShort"]
+- !private ["So16UIViewControllerC", "Float"]
+- !private ["So16UIViewControllerC", "Optional"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "parser"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Optional"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "airspeedKnots"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "battPct"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firmware_version"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "geo_Altitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gps_Lat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gps_Long"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gps_VSI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ground_speed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "msgReceiver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pitch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "roll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vsiFtPerMin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "yaw"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Optional"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "airspeedKnots"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "battPct"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "firmware_version"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "geo_Altitude"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "gps_Lat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "gps_Long"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "gps_VSI"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ground_speed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "msgReceiver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parser"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pitch"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "roll"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "vsiFtPerMin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "yaw"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["So6parserC", "airspeedKnots"]
+- !private ["So6parserC", "battPct"]
+- !private ["So6parserC", "firmware_version"]
+- !private ["So6parserC", "geo_Altitude"]
+- !private ["So6parserC", "gps_Lat"]
+- !private ["So6parserC", "gps_Long"]
+- !private ["So6parserC", "gps_VSI"]
+- !private ["So6parserC", "ground_speed"]
+- !private ["So6parserC", "init"]
+- !private ["So6parserC", "msgReceiver"]
+- !private ["So6parserC", "pitch"]
+- !private ["So6parserC", "roll"]
+- !private ["So6parserC", "vsiFtPerMin"]
+- !private ["So6parserC", "yaw"]
+depends-nominal:
+- "s7CVarArgP"
+- "16Flight_Safety_V213CalibrationVCC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So6parserC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/wassimlagnaoui/Flight_Safety_V2/Flight_Safety_V2/Model/Flight_Safety_V2-Bridging-Header.h"
+- "/Users/wassimlagnaoui/Flight_Safety_V2/Flight_Safety_V2/Model/parser.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bf32dfa6511b9c145da4b3ffc1f428bc"

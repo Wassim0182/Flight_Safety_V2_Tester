@@ -13,6 +13,8 @@
 		FCA3C37024426E9D00DDD522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA3C36E24426E9D00DDD522 /* Main.storyboard */; };
 		FCA3C37224426E9E00DDD522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA3C37124426E9E00DDD522 /* Assets.xcassets */; };
 		FCA3C37524426E9E00DDD522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA3C37324426E9E00DDD522 /* LaunchScreen.storyboard */; };
+		FCA3C38524426FED00DDD522 /* parser.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA3C38324426FED00DDD522 /* parser.m */; };
+		FCA3C3872442706700DDD522 /* Calibration_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA3C3862442706700DDD522 /* Calibration_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		FCA3C37124426E9E00DDD522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCA3C37424426E9E00DDD522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCA3C37624426E9E00DDD522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA3C38024426FEC00DDD522 /* Flight_Safety_V2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flight_Safety_V2-Bridging-Header.h"; sourceTree = "<group>"; };
+		FCA3C38224426FED00DDD522 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		FCA3C38324426FED00DDD522 /* parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parser.m; sourceTree = "<group>"; };
+		FCA3C3862442706700DDD522 /* Calibration_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calibration_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,33 @@
 			children = (
 				FCA3C36824426E9C00DDD522 /* AppDelegate.swift */,
 				FCA3C36A24426E9C00DDD522 /* SceneDelegate.swift */,
-				FCA3C36C24426E9C00DDD522 /* ViewController.swift */,
+				FCA3C37F24426FCC00DDD522 /* Model */,
+				FCA3C37E24426FA200DDD522 /* Controller */,
 				FCA3C36E24426E9D00DDD522 /* Main.storyboard */,
 				FCA3C37124426E9E00DDD522 /* Assets.xcassets */,
 				FCA3C37324426E9E00DDD522 /* LaunchScreen.storyboard */,
 				FCA3C37624426E9E00DDD522 /* Info.plist */,
 			);
 			path = Flight_Safety_V2;
+			sourceTree = "<group>";
+		};
+		FCA3C37E24426FA200DDD522 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCA3C36C24426E9C00DDD522 /* ViewController.swift */,
+				FCA3C3862442706700DDD522 /* Calibration_ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCA3C37F24426FCC00DDD522 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCA3C38224426FED00DDD522 /* parser.h */,
+				FCA3C38324426FED00DDD522 /* parser.m */,
+				FCA3C38024426FEC00DDD522 /* Flight_Safety_V2-Bridging-Header.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +125,7 @@
 				TargetAttributes = {
 					FCA3C36424426E9C00DDD522 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -138,8 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA3C38524426FED00DDD522 /* parser.m in Sources */,
 				FCA3C36D24426E9C00DDD522 /* ViewController.swift in Sources */,
 				FCA3C36924426E9C00DDD522 /* AppDelegate.swift in Sources */,
+				FCA3C3872442706700DDD522 /* Calibration_ViewController.swift in Sources */,
 				FCA3C36B24426E9C00DDD522 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KL2CMCMZHA;
 				INFOPLIST_FILE = Flight_Safety_V2/Info.plist;
@@ -293,6 +323,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LagnaouiW.Flight-Safety-V2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flight_Safety_V2/Model/Flight_Safety_V2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KL2CMCMZHA;
 				INFOPLIST_FILE = Flight_Safety_V2/Info.plist;
@@ -311,6 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LagnaouiW.Flight-Safety-V2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flight_Safety_V2/Model/Flight_Safety_V2-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
