@@ -98,7 +98,10 @@ class Calibration_ViewController: UIViewController {
                               //do nothing
                           }else{
                               print("Roll = \(swiftRoll!)")
-                              
+                              let tempF = swiftRoll!
+                              let tempS = String(tempF)
+                              rollValueLabel.text = tempS
+                            
                               
                           }
                           swiftPitch = instanceOfparser.pitch
