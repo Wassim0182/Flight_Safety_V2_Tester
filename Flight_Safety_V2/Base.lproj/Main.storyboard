@@ -95,6 +95,9 @@
                                 <state key="normal" title="Setup">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="SetupClicked:" destination="mw7-Tc-Wm6" eventType="touchUpInside" id="Mu1-gC-Va9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

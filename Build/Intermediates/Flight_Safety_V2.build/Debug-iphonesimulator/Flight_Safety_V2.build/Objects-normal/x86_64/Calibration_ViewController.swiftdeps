@@ -6,6 +6,7 @@ provides-nominal:
 provides-member:
 - ["16Flight_Safety_V226Calibration_ViewControllerC", ""]
 provides-dynamic-lookup:
+- "SetupClicked"
 - "rollValueLabel"
 - "viewDidLoad"
 depends-top-level:
@@ -22,6 +23,7 @@ depends-top-level:
 - !private "Optional"
 - !private "String"
 - !private "StringLiteralType"
+- "UIButton"
 - "UILabel"
 - "UIViewController"
 - !private "parser"
@@ -56,7 +58,9 @@ depends-member:
 - !private ["16Flight_Safety_V226Calibration_ViewControllerC", "CShort"]
 - !private ["16Flight_Safety_V226Calibration_ViewControllerC", "Float"]
 - !private ["16Flight_Safety_V226Calibration_ViewControllerC", "Optional"]
+- ["16Flight_Safety_V226Calibration_ViewControllerC", "SetupClicked"]
 - !private ["16Flight_Safety_V226Calibration_ViewControllerC", "String"]
+- ["16Flight_Safety_V226Calibration_ViewControllerC", "UIButton"]
 - ["16Flight_Safety_V226Calibration_ViewControllerC", "UILabel"]
 - ["16Flight_Safety_V226Calibration_ViewControllerC", "deinit"]
 - ["16Flight_Safety_V226Calibration_ViewControllerC", "init"]
@@ -199,7 +203,9 @@ depends-member:
 - !private ["So8NSObjectC", "CShort"]
 - !private ["So8NSObjectC", "Float"]
 - !private ["So8NSObjectC", "Optional"]
+- ["So8NSObjectC", "SetupClicked"]
 - !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIButton"]
 - ["So8NSObjectC", "UILabel"]
 - !private ["So8NSObjectC", "airspeedKnots"]
 - !private ["So8NSObjectC", "battPct"]
@@ -302,7 +308,9 @@ depends-member:
 - !private ["So11UIResponderC", "CShort"]
 - !private ["So11UIResponderC", "Float"]
 - !private ["So11UIResponderC", "Optional"]
+- ["So11UIResponderC", "SetupClicked"]
 - !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIButton"]
 - ["So11UIResponderC", "UILabel"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "parser"]
@@ -350,7 +358,9 @@ depends-member:
 - !private ["So16UIViewControllerC", "CShort"]
 - !private ["So16UIViewControllerC", "Float"]
 - !private ["So16UIViewControllerC", "Optional"]
+- ["So16UIViewControllerC", "SetupClicked"]
 - !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", "UILabel"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "init"]
@@ -532,4 +542,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "79df32a041d05964d58409136e290593"
+interface-hash: "025ef6d0bdb79f37bf721cc66f86bb24"
