@@ -105,6 +105,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="Soe-w9-pVM"/>
                     <connections>
+                        <outlet property="latitudeValueLabel" destination="9v1-XI-iqX" id="coJ-B0-C1c"/>
+                        <outlet property="longitudeValueLabel" destination="O2C-C2-Wqi" id="nga-hB-eT5"/>
+                        <outlet property="pitchValueLabel" destination="lLU-Sh-DLh" id="20R-xd-9IT"/>
                         <outlet property="rollValueLabel" destination="k6i-Xo-DUf" id="tfO-n6-Sj5"/>
                     </connections>
                 </viewController>

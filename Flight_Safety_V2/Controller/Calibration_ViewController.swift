@@ -11,6 +11,10 @@ import UIKit
 class Calibration_ViewController: UIViewController {
 
     @IBOutlet weak var rollValueLabel: UILabel!
+    @IBOutlet weak var pitchValueLabel: UILabel!
+    @IBOutlet weak var latitudeValueLabel: UILabel!
+    @IBOutlet weak var longitudeValueLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -56,6 +60,11 @@ class Calibration_ViewController: UIViewController {
                                                //do nothing
                                            }else{
                                                print("Lat = \(swiftGPS_Lat!)")
+                                               let tempS = String(swiftGPS_Lat!)
+                                            DispatchQueue.main.async {
+                                                self.latitudeValueLabel.text = tempS
+                                            }
+                                            
                                                //call caliberation display function
                                                //call comparing function to database values
                                            }
@@ -120,6 +129,13 @@ class Calibration_ViewController: UIViewController {
                                                //do nothing
                                            }else{
                                                print("Pitch = \(swiftPitch!)")
+                                               let tempF = swiftPitch!
+                                               let tempS = String(tempF)
+                                            DispatchQueue.main.async {
+                                                self.pitchValueLabel.text = tempS
+                                            }
+                                            
+                                            
                                            }
                                            swiftYaw = instanceOfparser.yaw
                                            if (swiftYaw == nil || swiftYaw == 0.0){
