@@ -99,6 +99,7 @@ class Calibration_ViewController: UIViewController {
                           }else{
                               print("Roll = \(swiftRoll!)")
                               
+                              
                           }
                           swiftPitch = instanceOfparser.pitch
                           if (swiftPitch == nil || swiftPitch == 0.0){
