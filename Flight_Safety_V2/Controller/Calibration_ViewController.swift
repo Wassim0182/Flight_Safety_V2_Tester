@@ -43,7 +43,7 @@ class Calibration_ViewController: UIViewController {
                                        var swiftVsiFtPerMin:CInt? = Optional.none
                                        
                                        //creation of while loop for receiving UDP packets
-                                       var noOfIterations = 70
+                                       var noOfIterations = 1000
                                        while noOfIterations > 1{ //PROBLEM HERE. THIS IS ONLY PRINTING PITCH AND ROLL ONCE. MAY BE BECAUSE ALTERING THE PROEPRTY VALUE OF AN OBJECT IS NOT ALLOWED.
                                            //print("inside while loop")
                                            instanceOfparser.msgReceiver() // do this as long as app is actively running
@@ -73,6 +73,10 @@ class Calibration_ViewController: UIViewController {
                                                //do nothing
                                            }else{
                                                print("Long = \(swiftGPS_Long!)")
+                                                let tempS = String(swiftGPS_Long!)
+                                                DispatchQueue.main.async {
+                                                    self.longitudeValueLabel.text = tempS
+                                                }
                                            }
                                            swiftGround_speed = instanceOfparser.ground_speed
                                            if (swiftGround_speed == nil || swiftGround_speed == 0){
