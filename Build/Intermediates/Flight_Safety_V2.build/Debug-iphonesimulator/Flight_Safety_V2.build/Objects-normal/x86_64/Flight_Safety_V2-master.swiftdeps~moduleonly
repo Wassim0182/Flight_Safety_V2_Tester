@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "8aab243723f9becb9774a4e607c25112"
-build_time: [1586643588, 559530000]
-inputs:
-  "/Users/wassimlagnaoui/Flight_Safety_V2/Flight_Safety_V2/Controller/ViewController.swift": [1586640668, 997201857]
-  "/Users/wassimlagnaoui/Flight_Safety_V2/Flight_Safety_V2/AppDelegate.swift": [1586640668, 980830230]
-  "/Users/wassimlagnaoui/Flight_Safety_V2/Flight_Safety_V2/Controller/Calibration_ViewController.swift": [1586643577, 345425092]
-  "/Users/wassimlagnaoui/Flight_Safety_V2/Flight_Safety_V2/SceneDelegate.swift": [1586640668, 995212323]
